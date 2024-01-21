@@ -1,5 +1,5 @@
 export const en = {
-    AppTitle: 'SCartGo',
+    AppTitle: 'Sen Dom',
     ButtonLabelSave: 'Save',
     ButtonLabelDelete: 'Delete',
     ButtonLabelAdd: 'Add',
