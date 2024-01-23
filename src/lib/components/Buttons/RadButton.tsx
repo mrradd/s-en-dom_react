@@ -1,5 +1,6 @@
-import {czz} from "../../czz.ts";
+import {ClazzNames} from "../../ClazzNames.ts";
 import {ReactNode} from "react";
+import './RadButton.css'
 
 export interface RadButtonProps {
     //Label for the button.
@@ -18,7 +19,7 @@ export interface RadButtonProps {
 const RadButton = (props: RadButtonProps) => {
     return(
         <>
-            <button className={czz.radButton} onClick={props.onClick} onMouseOver={props.mouseOver}>
+            <button className={ClazzNames.radButton} onClick={props.onClick} onMouseOver={props.mouseOver}>
                 {props.label}
             </button>
         </>
