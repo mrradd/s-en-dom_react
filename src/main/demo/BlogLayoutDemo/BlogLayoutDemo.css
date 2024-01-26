@@ -1,0 +1,9 @@
+.blog-layout {
+    display: grid;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    gap: 8px;
+}

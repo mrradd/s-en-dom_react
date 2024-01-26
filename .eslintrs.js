@@ -37,10 +37,10 @@ module.exports = {
             rules: {
                 'react/jsx-uses-react': 'error',
                 'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
-                //'@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+                '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
                 '@typescript-eslint/ban-ts-comment': 'off',
                 'react/display-name': 'off',
-                //'@typescript-eslint/no-explicit-any': 'warn',
+                '@typescript-eslint/no-explicit-any': 'warn',
                 'react/prop-types': 'off',
             },
         },

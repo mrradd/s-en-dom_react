@@ -1,0 +1,23 @@
+
+/** Give all divs a border. */
+div.test-border, div.test-border div {
+    border-width: 1px;
+    border-style: solid;
+}
+
+/** Make the border blue of all child divs. */
+.blue-border {
+    border-color: blue;
+}
+
+.red-border {
+    border-color: red;
+}
+
+.green-border {
+    border-color: green;
+}
+
+.darkmagenta-border {
+    border-color: darkmagenta;
+}
