@@ -1,5 +1,6 @@
 .blog-layout {
     display: grid;
+    gap: 8px;
 }
 
 .main-content {
