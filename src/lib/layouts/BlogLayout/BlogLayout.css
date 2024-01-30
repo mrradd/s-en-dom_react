@@ -1,0 +1,54 @@
+.blog-layout {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+    "left-gutter main-content right-gutter";
+}
+
+.left-gutter {
+    grid-area: left-gutter;
+}
+
+.main-content {
+    grid-area: main-content;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header-area header-area header-area"
+    "nav-area nav-area nav-area"
+    "left-content content-area right-content";
+}
+
+.right-gutter {
+    grid-area: right-gutter;
+}
+
+/******/
+.header-area {
+    grid-area: header-area;
+}
+
+.nav-area {
+    grid-area: nav-area;
+}
+
+.content-area {
+    grid-area: content-area;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.25fr;
+    grid-template-areas:
+    "left-content center-content right-content";
+}
+
+.center-content {
+    grid-area: center-content;
+}
+
+.left-content {
+    grid-area: left-content;
+}
+
+
+.right-content {
+    grid-area: right-content;
+}
